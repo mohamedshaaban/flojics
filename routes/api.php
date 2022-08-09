@@ -30,14 +30,9 @@ Route::group(['middleware' => 'web' ], function() {
 
      Route::get('header-menus', 'MenuController@headerMenus');
     Route::get('footer-menus', 'MenuController@footerMenus');
-     Route::get('home-settings', 'SettingController@homeSettings');
-    Route::get('meta-settings', 'SettingController@metaSettings');
+
     Route::get('home-departments', 'DepartmentController@homeDepartments');
     Route::get('home-doctors', 'DoctorController@homeDoctors');
-    Route::get('management', 'SettingController@managementSettings');
-    Route::get('item-settings', 'SettingController@itemSettings');
-    Route::get('director-settings', 'SettingController@directorSettings');
-    Route::get('management-settings', 'SettingController@executiveManagementSettings');
     Route::get('departments', 'DepartmentController@getAll');
     Route::get('apptdepartments', 'DepartmentController@getApptAll');
     Route::get('list-departments', 'DepartmentController@getAllFilterDepartment');
