@@ -87,7 +87,6 @@
             });
         </script>
 
-        {!! $settings['chat_code'] !!}
         <script type="text/javascript">
             $(function () {
                 $('#datepicker').datepicker({

@@ -32,7 +32,6 @@
     <script src="https://kit.fontawesome.com/667634235d.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 
-    {!! $settings['google_code'] !!}
 
     <link id="" rel="shortcut icon" href="/favicon.ico?" />
     {{-- <title id="title"></title> --}}
@@ -81,7 +80,6 @@
     });
 </script>
 
-{!! $settings['chat_code'] !!}
 <script type="text/javascript">
     $(function () {
         $('#datepicker').datepicker({
