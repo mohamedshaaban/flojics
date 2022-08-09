@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/html
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/public/uploads
+/public/vendor/
+/public/360-v1/
+.htaccess
+error_log
+/public/360/
